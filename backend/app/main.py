@@ -49,8 +49,8 @@ app.add_middleware(
 def root():
     return {"message": "Campaign API is running 🚀"}
 
-# Intialize the account sid and auth token
-auth_token = "###############################"
+account_sid = "ACcbc75d147cf1520dfa533d94a851856b"
+auth_token = "cc49339cc44325ed0150f41a398df924"
 client = Client(account_sid, auth_token)
 
 def normalize_number(number: str) -> str:
