@@ -1,0 +1,13 @@
+.layout-sidebar-custom-blue {
+    --d-sidebar-bg-color: #14648C;
+    --d-sidebar-bg-color-alt: #125679; /* slightly darker for contrast */
+    --d-sidebar-border: 1px solid #0f4f6e;
+    --d-app-name-color: #ffffff;
+    --d-menu-separator-border: 1px solid rgba(255,255,255,0.2);
+    --d-menuitem-root-text-color: rgba(255, 255, 255, 0.7);
+    --d-menuitem-text-color: rgba(255, 255, 255, 0.85);
+    --d-menuitem-hover-bg: rgba(255, 255, 255, 0.1);
+    --d-menuitem-active-bg: rgba(255, 255, 255, 0.15);
+    --d-menuitem-active-text-color: #ffffff;
+    --d-menuitem-focus-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+}
