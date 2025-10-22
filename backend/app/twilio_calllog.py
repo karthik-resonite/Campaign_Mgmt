@@ -1,6 +1,6 @@
 from twilio.rest import Client
 # Twilio credentials
-account_sid = "###############################"
+#initialize the account sid and auth token
 auth_token = "################################"
 client = Client(account_sid, auth_token)
 # Fetch all calls from a specific number

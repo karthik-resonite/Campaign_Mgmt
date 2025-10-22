@@ -49,7 +49,7 @@ app.add_middleware(
 def root():
     return {"message": "Campaign API is running 🚀"}
 
-account_sid = "##############################"
+# Intialize the account sid and auth token
 auth_token = "###############################"
 client = Client(account_sid, auth_token)
 
