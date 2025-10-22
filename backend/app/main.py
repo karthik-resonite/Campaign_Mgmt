@@ -28,7 +28,7 @@ from rapidfuzz import fuzz
 # Create tables
 models.Base.metadata.create_all(bind=engine)
 
-# ELEVENLABS_API_KEY = "sk_3c2a89de0706aa7b4b08fcad0764b3fa14448e143d396301"
+ELEVENLABS_API_KEY = "sk_3c2a89de0706aa7b4b08fcad0764b3fa14448e143d396301"
 ELEVENLABS_BASE = "https://api.elevenlabs.io/v1/convai"
 HEADERS = {"xi-api-key": ELEVENLABS_API_KEY}
 AGENT_ID = "agent_2401k4d81z28ex6ta12eb84faesj"  # Replace with your actual agent ID
@@ -49,8 +49,8 @@ app.add_middleware(
 def root():
     return {"message": "Campaign API is running 🚀"}
 
-# account_sid = "ACcbc75d147cf1520dfa533d94a851856b"
-# auth_token = "cc49339cc44325ed0150f41a398df924"
+account_sid = "##############################"
+auth_token = "###############################"
 client = Client(account_sid, auth_token)
 
 def normalize_number(number: str) -> str:
