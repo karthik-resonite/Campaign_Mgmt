@@ -49,8 +49,8 @@ app.add_middleware(
 def root():
     return {"message": "Campaign API is running 🚀"}
 
-account_sid = "ACcbc75d147cf1520dfa533d94a851856b"
-auth_token = "cc49339cc44325ed0150f41a398df924"
+account_sid = os.getenv("TWILIO_ACCOUNT_SID")
+auth_token = os.getenv("TWILIO_AUTH_TOKEN")
 client = Client(account_sid, auth_token)
 
 def normalize_number(number: str) -> str:
